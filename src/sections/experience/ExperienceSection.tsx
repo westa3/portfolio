@@ -26,15 +26,7 @@ export function ExperienceSection() {
                             href: "https://tcg-spot.com/",
                         },
                     ]}
-                />
-
-
-                <ExperienceItem
-                    role="Software Engineer"
-                    org="Lotus Lab AI"
-                    time="Jun 2025 – Aug 2025, Nov 2025 – Present"
-                    highlight="Cross-Platform App & AI Systems"
-                    description="Developing a cross-platform health and wellness application for Arab women using React Native and TypeScript, with full-stack ownership across a secure AWS backend, structured databases, and APIs supporting personalized and scalable functionality. Contributed to the implementation of a Retrieval-Augmented Generation (RAG) pipeline for automated data cleaning, integrating cloud infrastructure, API management, and custom AI model training for industry use cases."
+                    current={true}
                 />
 
 

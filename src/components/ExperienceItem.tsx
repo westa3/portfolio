@@ -12,6 +12,7 @@ export function ExperienceItem({
     highlight,
     description,
     links,
+    current = false,
 }: {
     role: string;
     org: string;
@@ -19,11 +20,10 @@ export function ExperienceItem({
     highlight: string;
     description: string;
     links?: ExperienceLink[];
+    current?: boolean;
 }) {
-    const isCurrent = useMemo(() => /present/i.test(time), [time]);
-
     return (
-        <div className={`experience-item ${isCurrent ? "current" : ""}`}>
+        <div className={`experience-item ${current ? "current" : ""}`}>
             <div className="experience-marker-col" aria-hidden>
                 <div className="experience-marker" />
             </div>
@@ -37,7 +37,7 @@ export function ExperienceItem({
                 <div className="experience-meta">
                     <span className="experience-time">
                         {time}
-                        {isCurrent && (
+                        {current && (
                             <span className="experience-current" title="Currently working here">
                                 <span className="experience-current-dot" /> Current
                             </span>

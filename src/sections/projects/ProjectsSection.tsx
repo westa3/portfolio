@@ -1,4 +1,6 @@
+import { projects } from "../../data/projects";
 import { ProjectsPlaceholderCard } from "../../components/ProjectsPlaceholderCard";
+import { ProjectCard } from "../../components/ProjectCard";
 
 export function ProjectsSection() {
     return (
@@ -8,8 +10,14 @@ export function ProjectsSection() {
                 A snapshot of what I’m building - with more on the way!
             </p>
 
-            <div className="project-grid single">
-                <ProjectsPlaceholderCard />
+            <div className={`project-grid ${projects.length ? "" : "single"}`}>
+                {projects.length ? (
+                    projects.map((project) => (
+                        <ProjectCard key={project.id} project={project} />
+                    ))
+                ) : (
+                    <ProjectsPlaceholderCard />
+                )}
             </div>
         </section>
     );

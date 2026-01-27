@@ -269,6 +269,11 @@ body {
   width: 10px;
   height: 10px;
   border-radius: 999px;
+  background: rgb(52, 54, 114);
+  box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.15);
+}
+
+.experience-item.current .experience-marker {
   background: #6366f1;
   box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.15);
 }
