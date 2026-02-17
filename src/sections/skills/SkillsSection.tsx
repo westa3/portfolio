@@ -48,7 +48,8 @@ export function SkillsSection() {
                         { label: "TypeScript", icon: <SiTypescript /> },
                         { label: "JavaScript", icon: <SiJavascript /> },
                         { label: "Git", icon: <SiGit /> },
-                        { label: "SQL"}
+                        { label: "SQL"},
+                        { label: "SQLite", icon: <SiSqlite /> }
                     ]}
                 />
 
@@ -65,8 +66,7 @@ export function SkillsSection() {
                         { label: "HTML", icon: <SiHtml5 /> },
                         { label: "CSS", icon: <SiCss3 /> },
                         { label: "Node.js", icon: <SiNodedotjs /> },
-                        { label: "AWS (Lambda, API Gateway, RDS, DynamoDB, AppSync, S3, IAM, Cognito)", icon: <SiAmazon /> },
-                        { label: "SQLite", icon: <SiSqlite /> },
+                        { label: "AWS (Lambda, API Gateway, RDS, DynamoDB, AppSync, S3, IAM, Cognito)", icon: <SiAmazon /> }
                     ]}
                 />
 
@@ -76,7 +76,7 @@ export function SkillsSection() {
                     items={[
                         { label: "Linux", icon: <FaLinux /> },
                         { label: "Windows", icon: <FaWindows /> },
-                        { label: "macOS", icon: <FaApple /> },
+                        { label: "macOS", icon: <FaApple /> }
                     ]}
                 />
 
@@ -93,7 +93,7 @@ export function SkillsSection() {
                         { label: "Oracle", icon: <SiOracle /> },
                         { label: "MongoDB", icon: <SiMongodb /> },
                         { label: "Supabase", icon: <SiSupabase /> },
-                        { label: "Google Suite", icon: <SiGoogle /> },
+                        { label: "Google Suite", icon: <SiGoogle /> }
                     ]}
                 />
             </div>

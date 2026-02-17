@@ -5,12 +5,12 @@ export function ExperienceSection() {
         <section id="experience">
             <h2 className="experience-title">Experience</h2>
             <p className="experience-hook">
-                As a software developer, I'm driven by curiosity and the joy of learning. Every new skill brings me closer to mastery and deeper impact.
+                As a software engineer, I'm driven by curiosity and the joy of learning. Every new skill brings me closer to mastery and deeper impact.
             </p>
             <p className="experience-intro">
-                My experience reflects a steady progression of responsibility, depth and curiosity.
-                Each role has shaped how I approach software by strengthening my collaboration skills,
-                systems thinking and research-driven problem solving. All while reinforcing my enjoyment
+                My experience reflects a steady progression of responsibility, depth and a desire to build impactful software.
+                Each role has shaped how I approach software engineering by strengthening my collaboration skills,
+                systems thinking and research-driven problem solving. Along with reinforcing my enjoyment
                 of learning and growth as a developer.
             </p>
             <div className="experience-timeline">
@@ -18,7 +18,7 @@ export function ExperienceSection() {
                     role="Full-Stack Software Engineer"
                     org="TCGspot"
                     time="Aug 2025 – Present"
-                    highlight="Mobile App Development"
+                    highlight="Mobile App Development & Database Management"
                     description="Designing and developing a mobile application for vendors and Pokémon collectors, integrating computer vision and AI/ML with a scalable backend. Leading full-stack implementation across iOS development, backend services, database architecture, and dataset creation and cleaning for model training. Collaborating in an Agile/Scrum environment to translate user research and stories into production-ready features."
                     links={[
                         {

@@ -7,7 +7,7 @@ export function ProjectsSection() {
         <section id="projects">
             <h2 className="projects-title">Projects</h2>
             <p className="projects-intro">
-                A snapshot of what I’m building - with more on the way!
+                A snapshot of what I've built or am currently building - with more on the way!
             </p>
 
             <div className={`project-grid ${projects.length ? "" : "single"}`}>
